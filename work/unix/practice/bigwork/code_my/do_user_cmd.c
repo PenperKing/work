@@ -92,7 +92,8 @@ void do_DEL_A__ACCOUNT_cmd(int msgid_cmd, int msgid_user)
 }
 void do_DEPOSIT_cmd(int msgid_cmd, int msgid_user)
 {
-	
+	int fd ;
+
 }
 void do_DRAW_MONEY_cmd(int msgid_cmd, int msgid_user)
 {
