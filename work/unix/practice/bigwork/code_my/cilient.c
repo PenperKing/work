@@ -39,8 +39,7 @@ unsigned char do_task_usercmd(Opt_t user_cmd, key_t key_cmd, key_t key_user)
 		case DRAW_MONEY		 :do_DRAW_MONEY_cmd(msgid_cmd,msgid_user);		break;
 		case LOOKUP				 :do_LONKUP_cmd(msgid_cmd,msgid_user);				break;
 		case TRANS_ACCOUNT :do_TRANS_ACCOUNT_cmd(msgid_cmd,msgid_user);	break;	 
-		default:break;
-			
+		default:break;	
 	}
 }
 

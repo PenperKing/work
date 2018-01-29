@@ -25,8 +25,7 @@ int main(void)
 }
 void protacol_cilient_cmd(int msgid_cmd, int msgid_user)
 {
-	Msgcmd_t  msgcmd = {};
-	
+	Msgcmd_t  msgcmd = {};	
 	msgcmd.type = CMD_MSG;
 	while(1)
 	{
@@ -55,7 +54,6 @@ void protacol_cilient_cmd(int msgid_cmd, int msgid_user)
 	  }
 	}
 }
-
 
 void quit(int signo)
 {
